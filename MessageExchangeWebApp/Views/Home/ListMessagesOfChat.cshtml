@@ -1,0 +1,34 @@
+﻿@model MessageExchangeWebApp.Models.Chat
+
+@{
+    ViewBag.Title = "DetailsChat";
+}
+
+<h2>Чат @Html.DisplayFor(model => model.UserSrc.Login) - @Html.DisplayFor(model => model.UserDst.Login)</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Сообщение
+        </th>
+        <th>
+            Дата и время
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.Messages) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.ActionLink("Удалить", "DeleteMessage", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

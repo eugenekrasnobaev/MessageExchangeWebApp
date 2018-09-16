@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MessageExchangeWebApp.Models.Chat>
+
+@{
+    ViewBag.Title = "ListChats";
+}
+
+<h2>Список чатов</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            От кого
+        </th>
+        <th>
+            Кому
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserSrc.Login)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserDst.Login)
+        </td>
+        <td>
+            @Html.ActionLink("Просмотр", "ListMessagesOfChat", new { id=item.Id }) |
+            @Html.ActionLink("Удалить", "DeleteChat", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

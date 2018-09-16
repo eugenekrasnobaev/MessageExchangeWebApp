@@ -1,0 +1,203 @@
+D:\MessageExchangeWebApp\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.csprojResolveAssemblyReference.cache
+D:\MessageExchangeWebApp\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.csproj.CoreCompileInputs.cache
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ApplicationInsights.config
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\MessageExchangeWebApp.dll.config
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\MessageExchangeWebApp.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\MessageExchangeWebApp.pdb
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\csc.exe
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\csc.exe.config
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\csc.rsp
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\csi.exe
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\csi.exe.config
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\csi.rsp
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.AppContext.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Console.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.IO.Compression.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.IO.Pipes.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.Claims.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Threading.Thread.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.ValueTuple.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Xml.XPath.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\vbc.exe
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\vbc.exe.config
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\vbc.rsp
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\VBCSCompiler.exe
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Antlr3.Runtime.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\EntityFramework.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\EntityFramework.SqlServer.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.DependencyCollector.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.Web.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.WindowsServer.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.ApplicationInsights.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Newtonsoft.Json.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Helpers.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Mvc.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Optimization.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Razor.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.WebPages.Deployment.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.WebPages.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.WebPages.Razor.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\WebGrease.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\EntityFramework.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\EntityFramework.SqlServer.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Helpers.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Mvc.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Optimization.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.Razor.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.WebPages.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.WebPages.Deployment.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\System.Web.WebPages.Razor.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Antlr3.Runtime.pdb
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Newtonsoft.Json.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.ApplicationInsights.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.DependencyCollector.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.WindowsServer.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\Microsoft.AI.Web.xml
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.Helpers.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.Mvc.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.Optimization.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.Razor.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.WebPages.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.csproj.CopyComplete
+D:\MessageExchangeWebApp\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.dll
+D:\MessageExchangeWebApp\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.pdb
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ApplicationInsights.config
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\MessageExchangeWebApp.dll.config
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\MessageExchangeWebApp.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\MessageExchangeWebApp.pdb
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\csc.exe
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\csc.exe.config
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\csc.rsp
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\csi.exe
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\csi.exe.config
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\csi.rsp
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.AppContext.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Console.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.IO.Compression.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.IO.Pipes.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.Claims.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Threading.Thread.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.ValueTuple.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\vbc.exe
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\vbc.exe.config
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\vbc.rsp
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Antlr3.Runtime.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\EntityFramework.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\EntityFramework.SqlServer.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.DependencyCollector.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.Web.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.WindowsServer.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.ApplicationInsights.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Newtonsoft.Json.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Helpers.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Mvc.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Optimization.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Razor.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.WebPages.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\WebGrease.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\EntityFramework.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\EntityFramework.SqlServer.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Helpers.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Mvc.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Optimization.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.Razor.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.WebPages.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Antlr3.Runtime.pdb
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Newtonsoft.Json.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.ApplicationInsights.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.DependencyCollector.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.WindowsServer.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\Microsoft.AI.Web.xml
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.Helpers.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.Mvc.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.Optimization.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.Razor.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.WebPages.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.csproj.CoreCompileInputs.cache
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.csproj.CopyComplete
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.dll
+D:\Documents\Epam Systems\6. MVC\MessageExchangeWebApp New Design\MessageExchangeWebApp\obj\Debug\MessageExchangeWebApp.pdb
