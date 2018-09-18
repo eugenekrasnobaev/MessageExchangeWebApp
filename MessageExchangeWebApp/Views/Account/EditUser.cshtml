@@ -48,19 +48,22 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.E_mail, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.E_mail, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.E_mail, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.Role, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @{ List<SelectListItem> list = new List<SelectListItem>();
-                    list.Add(new SelectListItem { Text = "admin", Value = "admin" });
-                    list.Add(new SelectListItem { Text = "user", Value = "user" });
+                @{
+                    List<SelectListItem> list = new List<SelectListItem>
+                    {
+                        new SelectListItem {Text = "admin", Value = "admin"},
+                        new SelectListItem {Text = "user", Value = "user"}
+                    };
                 }
                 @Html.DropDownListFor(model => model.Role, list, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })

@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Web.Security;
 using MessageExchangeWebApp.Models;
-using System.Data.Entity;
 
 namespace MessageExchangeWebApp.Providers
 {
@@ -11,11 +10,11 @@ namespace MessageExchangeWebApp.Providers
     {
         public override string[] GetRolesForUser(string username)
         {
-            string[] roles = new string[] { };
-            using (MessageExchangeContext db = new MessageExchangeContext())
+            var roles = new string[] { };
+            using (var db = new MessageExchangeContext())
             {
-                User user = db.Users.FirstOrDefault(u => u.Login == username);
-                if (user != null && user.Role != null)
+                var user = db.Users.FirstOrDefault(u => u.Login == username);
+                if (user?.Role != null)
                 {
                     roles = new string[] { user.Role };
                 }
@@ -29,14 +28,13 @@ namespace MessageExchangeWebApp.Providers
 
         public override bool IsUserInRole(string username, string roleName)
         {
-            using (MessageExchangeContext db = new MessageExchangeContext())
+            using (var db = new MessageExchangeContext())
             {
-                User user = db.Users.FirstOrDefault(u => u.Login == username);
+                var user = db.Users.FirstOrDefault(u => u.Login == username);
 
-                if (user != null && user.Role != null && user.Role == roleName)
+                if (user?.Role != null && user.Role == roleName)
                     return true;
-                else
-                    return false;
+                return false;
             }
         }
 
@@ -47,8 +45,8 @@ namespace MessageExchangeWebApp.Providers
 
         public override string ApplicationName
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get => throw new NotImplementedException(); 
+            set => throw new NotImplementedException(); 
         }
 
         public override bool DeleteRole(string roleName, bool throwOnPopulatedRole)

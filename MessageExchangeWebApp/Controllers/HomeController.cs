@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using MessageExchangeWebApp.Models;
 using System.Data.Entity;
@@ -10,11 +8,11 @@ namespace MessageExchangeWebApp.Controllers
 {
     public class HomeController : Controller
     {
-        MessageExchangeContext db = new MessageExchangeContext();
+        private readonly MessageExchangeContext _db = new MessageExchangeContext();
 
         protected override void Dispose(bool disposing)
         {
-            db.Dispose();
+            _db.Dispose();
             base.Dispose(disposing);
         }
 
@@ -27,7 +25,7 @@ namespace MessageExchangeWebApp.Controllers
         [Authorize]
         public ActionResult CreateMessage()
         {
-            SelectList userlist = new SelectList(db.Users, "Login", "Login");
+            var userlist = new SelectList(_db.Users, "Login", "Login");
             ViewBag.List = userlist;
 
             return View();
@@ -37,37 +35,50 @@ namespace MessageExchangeWebApp.Controllers
         [Authorize]
         public ActionResult CreateMessage(CreateMessageModel model)
         {
-            model.Date = DateTime.Now.ToString();
+            model.Date = DateTime.Now;
             model.SrcUserLogin = User.Identity.Name;
 
-            SelectList userlist = new SelectList(db.Users, "Login", "Login");
+            var userlist = new SelectList(_db.Users, "Login", "Login");
             ViewBag.List = userlist;
+
+            int userIdSrc, userIdDst;
 
             if (ModelState.IsValid)
             {
-                int _UserIdSrc = db.Users.FirstOrDefault(u => u.Login == model.SrcUserLogin).Id;
-
-                User user = db.Users.FirstOrDefault(u => u.Login == model.DstUserLogin);
+                // определение id пользователя отправителя сообщения
+                var user = _db.Users
+                    .FirstOrDefault(u => u.Login == model.SrcUserLogin);
                 if (user == null)
                 {
-                    ModelState.AddModelError("", "Такого пользователя не существует");
-                    return View(model);
+                    return HttpNotFound();
                 }
+                userIdSrc = user.Id;
 
-                int _UserIdDst = user.Id;
+                // определение id пользователя получателя сообщения
+                user = _db.Users
+                    .FirstOrDefault(u => u.Login == model.DstUserLogin);
+                if (user == null)
+                {
+                    return HttpNotFound();
+                }
+                userIdDst = user.Id;
 
-                Chat c;
-                c = db.Chats.Where(u => u.UserIdSrc == _UserIdSrc && u.UserIdDst == _UserIdDst).FirstOrDefault();
+                // поиск чата с заданным отправителем и получателем
+                var c = _db.Chats
+                    .FirstOrDefault(u => u.UserIdSrc == userIdSrc && u.UserIdDst == userIdDst);
+
+                // если такого чата нет - создаем его
                 if (c == null)
                 {
-                    c = new Chat { UserIdSrc = _UserIdSrc, UserIdDst = _UserIdDst };
-                    db.Chats.Add(c);
-                    db.SaveChanges();
+                    c = new Chat { UserIdSrc = userIdSrc, UserIdDst = userIdDst };
+                    _db.Chats.Add(c);
+                    _db.SaveChanges();
                 }
 
-                Message m = new Message { Content = model.Content, Date = model.Date, Chat = c };
-                db.Messages.Add(m);
-                db.SaveChanges();
+                // создаем сообщение в своем чате
+                var m = new Message { Content = model.Content, Date = model.Date, Chat = c };
+                _db.Messages.Add(m);
+                _db.SaveChanges();
 
                 ModelState.AddModelError("", "Сообщение отправлено!");
             }
@@ -78,35 +89,41 @@ namespace MessageExchangeWebApp.Controllers
         [Authorize]
         public ActionResult ListChats()
         {
-            var c = db.Chats.Include(u => u.UserSrc).Include(u => u.UserDst);
+            var c = _db.Chats
+                .Include(u => u.UserSrc)
+                .Include(u => u.UserDst);
             return View(c.ToList());
         }
 
         [Authorize]
         public ActionResult DeleteChat(int id)
         {
-            Chat c = new Chat { Id = id };
-            db.Entry(c).State = EntityState.Deleted;
-            db.SaveChanges();
+            var c = new Chat { Id = id };
+            _db.Entry(c).State = EntityState.Deleted;
+            _db.SaveChanges();
 
-            return RedirectToAction("ListChats");
+            return RedirectToAction("ListChats", "Home");
         }
 
         [Authorize]
         public ActionResult ListMessagesOfChat(int id)
         {
-            Chat c = db.Chats.Include(u => u.UserSrc).Include(u => u.UserDst).Include(u => u.Messages).FirstOrDefault(p => p.Id == id);
+            var c = _db.Chats
+                .Include(u => u.UserSrc)
+                .Include(u => u.UserDst)
+                .Include(u => u.Messages)
+                .FirstOrDefault(p => p.Id == id);
             return View(c);
         }
 
         [Authorize]
         public ActionResult DeleteMessage(int id)
         {
-            Message b = new Message { Id = id };
-            db.Entry(b).State = EntityState.Deleted;
-            db.SaveChanges();
+            var m = new Message { Id = id };
+            _db.Entry(m).State = EntityState.Deleted;
+            _db.SaveChanges();
 
-            return RedirectToAction("ListChats");
+            return RedirectToAction("ListChats", "Home");
         }
     }
 }

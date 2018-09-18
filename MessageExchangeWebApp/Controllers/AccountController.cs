@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
 using MessageExchangeWebApp.Models;
 using System.Web.Security;
@@ -11,11 +8,11 @@ namespace MessageExchangeWebApp.Controllers
 {
     public class AccountController : Controller
     {
-        MessageExchangeContext db = new MessageExchangeContext();
+        private readonly MessageExchangeContext _db = new MessageExchangeContext();
 
         protected override void Dispose(bool disposing)
         {
-            db.Dispose();
+            _db.Dispose();
             base.Dispose(disposing);
         }
 
@@ -30,18 +27,18 @@ namespace MessageExchangeWebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                User user = null;
-                user = db.Users.FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
+                // ищем пользователя с заданным логином и паролем
+                var user = _db.Users
+                    .FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
 
+                // если он есть - перенаправляем его на ListChats
                 if (user != null)
                 {
                     FormsAuthentication.SetAuthCookie(model.Login, true);
                     return RedirectToAction("ListChats", "Home");
                 }
-                else
-                {
-                    ModelState.AddModelError("", "Пользователя с таким логином и паролем нет");
-                }
+
+                ModelState.AddModelError("", "Неправильный логин или пароль!");
             }
 
             return View(model);
@@ -56,27 +53,34 @@ namespace MessageExchangeWebApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Register(RegisterModel model)
         {
+            // устанавливаем для нового польвателя роль user вручную
             model.Role = "user";
+
             if (ModelState.IsValid)
             {
-                User user = null;
-                user = db.Users.FirstOrDefault(u => u.Login == model.Login);
-
+                // ищем пользовтаеля с заданным логином
+                var user = _db.Users
+                    .FirstOrDefault(u => u.Login == model.Login);
+                
+                // если логин свободен - создаем пользователя
                 if (user == null)
                 {
-                    db.Users.Add(new User { Name = model.Name, Surname = model.Surname, Login = model.Login, Password = model.Password, E_mail = model.E_mail, Role = model.Role });
-                    db.SaveChanges();
-                    user = db.Users.Where(u => u.Login == model.Login && u.Password == model.Password).FirstOrDefault();
+                    _db.Users.Add(new User { Name = model.Name, Surname = model.Surname, Login = model.Login, Password = model.Password, Email = model.Email, Role = model.Role });
+                    _db.SaveChanges();
+
+                    // проверяем, что пользователь создан
+                    user = _db.Users
+                        .FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
                 }
+
+                // если пользователь создан - перенаправляем его на ListChats
                 if (user != null)
                 {
                     FormsAuthentication.SetAuthCookie(model.Name, true);
                     return RedirectToAction("ListChats", "Home");
                 }
-            }
-            else
-            {
-                ModelState.AddModelError("", "Пользователь с таким логином уже существует");
+
+                ModelState.AddModelError("", "Логин занят!");
             }
             return View(model);
         }
@@ -90,17 +94,20 @@ namespace MessageExchangeWebApp.Controllers
         [Authorize(Roles = "admin")]
         public ActionResult ListUsers()
         {
-            return View(db.Users);       
+            // передаем в представление набор пользователей
+            return View(_db.Users);       
         }
 
         [Authorize(Roles = "admin")]
         public ActionResult DeleteUser(int id)
         {
-            User u = new User { Id = id };
-            db.Entry(u).State = EntityState.Deleted;
-            db.SaveChanges();
+            // создаем пользователя по заданному id 
+            var u = new User { Id = id };
+            // удаляем его
+            _db.Entry(u).State = EntityState.Deleted;
+            _db.SaveChanges();
 
-            return RedirectToAction("ListUsers");
+            return RedirectToAction("ListUsers", "Account");
         }
 
         [HttpGet]
@@ -111,9 +118,13 @@ namespace MessageExchangeWebApp.Controllers
             {
                 return HttpNotFound();
             }
-            User u = db.Users.Find(id);
+
+            // ищем пользователя по id 
+            var u = _db.Users.Find(id);
+
             if (u != null)
             {
+                // передаем в представление найденного пользователя
                 return View(u);
             }
             return HttpNotFound();
@@ -122,9 +133,9 @@ namespace MessageExchangeWebApp.Controllers
         [Authorize(Roles = "admin")]
         public ActionResult EditUser(User u)
         {
-            db.Entry(u).State = EntityState.Modified;
-            db.SaveChanges();
-            return RedirectToAction("ListUsers");
+            _db.Entry(u).State = EntityState.Modified;
+            _db.SaveChanges();
+            return RedirectToAction("ListUsers", "Account");
         }
     }
 }

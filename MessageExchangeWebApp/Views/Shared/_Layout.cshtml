@@ -28,7 +28,7 @@
 
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li>@Html.ActionLink("Ваш логин: " + @User.Identity.Name, "Logoff", "Account")</li>
+                        <li>@Html.ActionLink("Ваш логин: " + User.Identity.Name, "Logoff", "Account")</li>
                     }
                     else
                     {

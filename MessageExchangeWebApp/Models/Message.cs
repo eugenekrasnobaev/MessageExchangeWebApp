@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MessageExchangeWebApp.Models
 {
@@ -14,7 +9,7 @@ namespace MessageExchangeWebApp.Models
         public int Id { get; set; }
 
         public string Content { get; set; }
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
 
         public int? ChatId { get; set; }
         public Chat Chat { get; set; }
