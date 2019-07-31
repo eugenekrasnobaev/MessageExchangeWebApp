@@ -45,7 +45,6 @@ namespace MessageExchangeWebApp.Controllers
 
             if (ModelState.IsValid)
             {
-                // определение id пользователя отправителя сообщения
                 var user = _db.Users
                     .FirstOrDefault(u => u.Login == model.SrcUserLogin);
                 if (user == null)
@@ -54,7 +53,6 @@ namespace MessageExchangeWebApp.Controllers
                 }
                 userIdSrc = user.Id;
 
-                // определение id пользователя получателя сообщения
                 user = _db.Users
                     .FirstOrDefault(u => u.Login == model.DstUserLogin);
                 if (user == null)
@@ -63,11 +61,9 @@ namespace MessageExchangeWebApp.Controllers
                 }
                 userIdDst = user.Id;
 
-                // поиск чата с заданным отправителем и получателем
                 var c = _db.Chats
                     .FirstOrDefault(u => u.UserIdSrc == userIdSrc && u.UserIdDst == userIdDst);
 
-                // если такого чата нет - создаем его
                 if (c == null)
                 {
                     c = new Chat { UserIdSrc = userIdSrc, UserIdDst = userIdDst };
@@ -75,7 +71,6 @@ namespace MessageExchangeWebApp.Controllers
                     _db.SaveChanges();
                 }
 
-                // создаем сообщение в своем чате
                 var m = new Message { Content = model.Content, Date = model.Date, Chat = c };
                 _db.Messages.Add(m);
                 _db.SaveChanges();
